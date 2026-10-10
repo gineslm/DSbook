@@ -4,6 +4,9 @@ The history of the DSBook framework. One entry per version recorded with `npm ru
 
 Format: version · date (YYYY-MM-DD) · summary.
 
+## 1.1.1 · 2026-10-10
+The progress test no longer assumes a project without Not applicable sections, so it keeps passing once a project triages its statuses.
+
 ## 1.1.0 · 2026-10-10
 The DSB mark opens a new Framework page (`#/framework`): the framework version, release date and source, the project's repository and the latest commit on GitHub, each with a manual *Check for updates* button. `dsbook.json` gains `released` and `repository`; `data/project.json` gains an optional `repository`; `framework --release` takes `--repository`. Agents check the remote at the start of a session. The page is compact (the two blocks side by side, small buttons) and puts two short texts (what DSBook is, how it works with Claude Design, Claude Code and GitHub) on the left and the framework and project blocks on the right. It is titled "DSBook framework" and, while the copy has not been started as a project, shows only the framework block. `npm start` runs `scripts/serve.mjs`, which takes the first free port from 8000. The logo is a vector (`assets/_framework/dsbook-logo.svg`, Roboto Bold and Medium as outlines) used in the rail and as the tab icon.
 
