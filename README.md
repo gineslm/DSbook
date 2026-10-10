@@ -42,8 +42,7 @@ Three ideas to keep in mind:
 - **Contract.** Identities, statuses and paths follow a strict [data contract](docs/data-contract.md) that `npm run check` enforces.
 
 ## Requirements and installation
-- **Node.js 18 or later**, to run the checks and the scripts. There are no packages to install.
-- **Python 3** (or any static file server) to serve the container locally.
+- **Node.js 18 or later**, to run the checks, the scripts and the local server (`npm start`). There are no packages to install.
 - **Git**.
 - Optional: Chrome or Chromium and Node 22+, for the browser smoke test (it is skipped without them).
 
@@ -64,9 +63,9 @@ cd my-design-system
    ```sh
    npm run check
    npm test
-   python3 -m http.server 8000 --bind 127.0.0.1
+   npm start
    ```
-   Open http://localhost:8000. Do not open `index.html` directly: loading the JSON files requires HTTP.
+   `npm start` prints the address (the first free port from 8000, so several projects can run at once). Open it. Do not open `index.html` directly: loading the JSON files requires HTTP.
 5. Commit and connect your remote.
 
 More detail in [docs/template.md](docs/template.md).

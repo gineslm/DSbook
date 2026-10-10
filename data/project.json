@@ -3,7 +3,6 @@
   "projectId": "new-design-system",
   "name": "New Design System",
   "language": "en",
-  "repository": "https://github.com/gineslm/DSbook",
   "seedVersion": "1.0.0",
   "sections": {
     "foundations.goals-and-usage-guide": {
