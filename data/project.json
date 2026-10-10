@@ -1,0 +1,1725 @@
+{
+  "schemaVersion": 2,
+  "projectId": "new-design-system",
+  "name": "New Design System",
+  "language": "en",
+  "seedVersion": "1.0.0",
+  "sections": {
+    "foundations.goals-and-usage-guide": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "foundations.system-users": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "foundations.products-and-requirements": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "foundations.existing-ecosystem": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "foundations.interface-inventory": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "foundations.design-principles": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "foundations.system-boundaries": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "foundations.glossary": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "foundations.decision-log": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "foundations.accessibility": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "visuals.color": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "visuals.typography": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "visuals.spacing": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "visuals.dimensions": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "visuals.borders": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "visuals.shape": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "visuals.elevation": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "visuals.opacity": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "visuals.motion": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "visuals.accessibility": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "tokens.token-layers": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "tokens.naming-and-aliases": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "tokens.token-lifecycle": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "tokens.simple-and-composite-values": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "tokens.light-theme": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "tokens.dark-theme": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "tokens.brand-variants": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "tokens.density-and-platforms": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "tokens.design-code-mapping": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "tokens.visual-and-action-categories": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "tokens.additional-categories": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "tokens.accessibility": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "resources.libraries-and-licenses": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "resources.icon-construction": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "resources.stroke-and-fill": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "resources.types-of-graphic-resources": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "resources.icons-and-labels": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "resources.photography-and-illustration": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "resources.crops-and-proportions": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "resources.loading-formats-and-export": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "resources.accessibility": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "layout.containers-and-grid": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "layout.alignment-and-hierarchy": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "layout.breakpoints": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "layout.viewport-and-container": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "layout.grid-and-flexbox": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "layout.responsive-reflow": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "layout.content-and-overflow": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "layout.scrolling-and-density": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "layout.accessibility": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "content.voice-tone-and-terminology": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "content.titles-labels-and-actions": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "content.help-and-instructions": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "content.interface-messages": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "content.text-length": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "content.conventions-and-formats": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "content.translation-and-pluralization": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "content.right-to-left-scripts": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "content.accessibility": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "interaction.input-modalities": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "interaction.interaction-states": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "interaction.process-states": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "interaction.focus-management": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "interaction.activation-and-dismissal": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "interaction.destructive-actions-and-undo": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "interaction.gestures-and-dragging": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "interaction.updates-and-animation": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "interaction.accessibility": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "components.actions": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "components.input-and-selection": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "components.field-structure": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "components.presentation": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "components.navigation": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "components.feedback": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "components.disclosure-and-overlays": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "components.data": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "components.accessibility": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "patterns.forms-and-validation": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "patterns.saving-and-canceling": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "patterns.search-filters-and-results": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "patterns.batch-actions": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "patterns.create-edit-and-delete": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "patterns.file-management": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "patterns.absence-states": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "patterns.errors-and-retries": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "patterns.access-onboarding-and-permissions": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "patterns.accessibility": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "navigation.levels-and-hierarchy": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "navigation.pattern-selection": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "navigation.current-location": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "navigation.relationship-between-mechanisms": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "navigation.responsive-navigation": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "navigation.history-and-deep-links": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "navigation.context-persistence": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "navigation.routes-titles-and-focus": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "navigation.accessibility": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "templates.general-structure": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "templates.list-and-detail": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "templates.forms-and-results": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "templates.panels-and-settings": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "templates.sequential-flows": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "templates.access-error-and-empty-states": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "templates.titles-and-primary-actions": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "templates.responsive-and-density": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "templates.accessibility": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "implementation.technologies-and-dependencies": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "implementation.packages-and-styles": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "implementation.component-api": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "implementation.customization-and-themes": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "implementation.design-code-mapping": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "implementation.documentation-and-examples": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "implementation.compatibility": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "implementation.performance": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "implementation.publishing-and-migration": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "implementation.accessibility": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "quality.acceptance-and-consistency": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "quality.testing-and-regression": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "quality.real-content-and-languages": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "quality.themes-sizes-and-devices": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "quality.usability-testing": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "quality.deliverable-consistency": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "quality.known-issues": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "quality.accessibility": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "governance.team-and-contribution": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "governance.intake-criteria": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "governance.maturity": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "governance.exceptions-and-prioritization": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "governance.versioning-and-retirement": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "governance.communication-and-support": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "governance.tools": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "governance.metrics": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    },
+    "governance.accessibility": {
+      "status": "P",
+      "page": "",
+      "owner": "",
+      "notes": "",
+      "tasks": [],
+      "review": {
+        "by": "",
+        "date": "",
+        "evidence": ""
+      },
+      "exclusionReason": ""
+    }
+  }
+}

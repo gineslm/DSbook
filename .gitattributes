@@ -1,0 +1,3 @@
+# Vendored or generated files: no line-ending conversion (their hash is checked by npm run check)
+assets/_runtime/* -text
+sections/**/support.js -text
