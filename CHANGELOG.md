@@ -5,7 +5,7 @@ The history of the DSBook framework. One entry per version recorded with `npm ru
 Format: version · date (YYYY-MM-DD) · summary.
 
 ## 1.1.0 · 2026-10-10
-The DSB mark opens a new Framework page (`#/framework`): the framework version, release date and source, the project's repository and the latest commit on GitHub, each with a manual *Check for updates* button. `dsbook.json` gains `released` and `repository`; `data/project.json` gains an optional `repository`; `framework --release` takes `--repository`. Agents check the remote at the start of a session. The page is compact (the two blocks side by side, small buttons) and puts two short texts (what DSBook is, how it works with Claude Design, Claude Code and GitHub) on the left and the framework and project blocks on the right.
+The DSB mark opens a new Framework page (`#/framework`): the framework version, release date and source, the project's repository and the latest commit on GitHub, each with a manual *Check for updates* button. `dsbook.json` gains `released` and `repository`; `data/project.json` gains an optional `repository`; `framework --release` takes `--repository`. Agents check the remote at the start of a session. The page is compact (the two blocks side by side, small buttons) and puts two short texts (what DSBook is, how it works with Claude Design, Claude Code and GitHub) on the left and the framework and project blocks on the right. It is titled "DSBook framework".
 
 ## 1.0.0 · 2026-10-10
 First version of the framework as its own repository, extracted from the first project that used it (its pilots, up to its version 0.15.0). It contains:
