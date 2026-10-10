@@ -5,7 +5,7 @@ The history of the DSBook framework. One entry per version recorded with `npm ru
 Format: version · date (YYYY-MM-DD) · summary.
 
 ## 1.2.0 · 2026-10-10
-The home page becomes a record: Content, Info (empty, reserved for a guide to the project and the framework) and Record views at `#/home/<view>`. Record shows the project record (`record`: owner, notes, tasks, optional in `project.json`) and, read-only and unfiltered, the tasks of every section. Tasks have one shape and one validation everywhere. A Not applicable section cannot have tasks: adding one means reopening it (guides for Claude Design and Claude Code). `home` and `framework` are reserved category IDs. The Sections menu cascade uses `any-hover` and has a browser test.
+The home page becomes a record: Content, Info (empty, reserved for a guide to the project and the framework) and Record views at `#/home/<view>`. Record shows the project record (`record`: owner, notes, tasks, optional in `project.json`) and, read-only and unfiltered, the tasks of every section. Tasks have one shape and one validation everywhere. A Not applicable section cannot have tasks: adding one means reopening it (guides for Claude Design and Claude Code). `home` and `framework` are reserved category IDs. The Sections menu cascade opens from pointer events and does not depend on hover-capability media queries (Firefox reported none on a touch-capable PC and showed the inline accordion); a browser test emulates touch.
 
 ## 1.1.1 · 2026-10-10
 The progress test no longer assumes a project without Not applicable sections, so it keeps passing once a project triages its statuses.
