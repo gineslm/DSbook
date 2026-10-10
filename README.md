@@ -91,7 +91,7 @@ Guides: [for Claude Design](docs/claude-design.md) · [for Claude Code](docs/cla
 An existing page does not imply R. **Tasks** (`pending` or `future`) are non-blocking and never prevent Ready; work that blocks keeps the subsection in I.
 
 ## The container
-A narrow rail with the **DSB** mark (it opens the Framework page; the home page is the first breadcrumb) and two dropdowns: **status** filter and **sections** menu (hover a category to see its subsections). A sticky header shows the breadcrumb and the status on the left, and on the right the view tabs, a search field that unfolds from a magnifier, and previous/next buttons.
+A narrow rail with the **DSBook logo** (it opens the Framework page; the home page is the first breadcrumb) and two dropdowns: **status** filter and **sections** menu (hover a category to see its subsections). A sticky header shows the breadcrumb and the status on the left, and on the right the view tabs, a search field that unfolds from a magnifier, and previous/next buttons.
 
 Each subsection has its own address, `#/<category>.<slug>`, and three views: **Content** (its page), **Info** (the guide: what to define and the acceptance criteria) and **Record** (status, owner, notes, tasks and review). The home page shows two bars: **Progress** (Ready over applicable) and **Complexity** (applicable over total). A subsection in I or R with a page opens on Content; any other opens on Info.
 
@@ -119,7 +119,7 @@ They need no dependencies. What each one verifies and how to read an error is in
 | `CLAUDE.md` | The entry point for agents. |
 
 ## Framework versions
-The DSB mark in the container opens the **Framework** page: the framework version and its source, the project's repository, the latest commit on GitHub, and a *Check for updates* button on each (manual; the only network calls).
+The DSBook logo in the container opens the **Framework** page: the framework version and its source, the project's repository, the latest commit on GitHub, and a *Check for updates* button on each (manual; the only network calls).
 
 `dsbook.json` records the framework version, and `npm run check` fails if a framework file changes without a new version being recorded. This keeps every repository built on DSBook comparable: `npm run framework -- --compare <folder>` says whether two of them differ and in which files. The versioning rules and the workflow to port a change are in [docs/framework.md](docs/framework.md); the history is in [CHANGELOG.md](CHANGELOG.md).
 
