@@ -93,7 +93,7 @@ An existing page does not imply R. **Tasks** (`pending` or `future`) are non-blo
 ## The container
 A narrow rail with the **DSBook logo** (it opens the Framework page; the home page is the first breadcrumb) and two dropdowns: **status** filter and **sections** menu (hover a category to see its subsections). A sticky header shows the breadcrumb and the status on the left, and on the right the view tabs, a search field that unfolds from a magnifier, and previous/next buttons.
 
-Each subsection has its own address, `#/<category>.<slug>`, and three views: **Content** (its page), **Info** (the guide: what to define and the acceptance criteria) and **Record** (status, owner, notes, tasks and review). The home page shows two bars: **Progress** (Ready over applicable) and **Complexity** (applicable over total). A subsection in I or R with a page opens on Content; any other opens on Info.
+The home page has the same three views at `#/home/<view>`: **Content** (the summary), **Info** (empty for now, reserved for a guide to the project and the framework) and **Record** (the project record and, read-only, the tasks of every section). Each subsection has its own address, `#/<category>.<slug>`, and three views: **Content** (its page), **Info** (the guide: what to define and the acceptance criteria) and **Record** (status, owner, notes, tasks and review). The home page shows two bars: **Progress** (Ready over applicable) and **Complexity** (applicable over total). A subsection in I or R with a page opens on Content; any other opens on Info.
 
 Pages are shown in an isolated iframe (`sandbox="allow-scripts"`). The container keeps no drafts and imports or exports nothing.
 
