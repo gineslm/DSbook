@@ -103,7 +103,8 @@ Las páginas se muestran en un iframe aislado (`sandbox="allow-scripts"`). El co
 npm run check       # contrato, páginas, runtime vendorizado y versión del framework
 npm test            # lógica, reglas de check, init, manifiesto del framework y una prueba de humo en navegador
 npm run framework   # informe de la versión del framework (también --release y --compare)
-npm run design-diff # compara un proyecto de Claude Design con el repositorio
+npm run design-diff # compara un proyecto de Claude Design con el repositorio y protege su trabajo
+npm run hooks:install # bloquea el push si hay trabajo de Claude Design sin integrar
 npm run handoff-note # escribe el aviso (handoff-last.md) para Claude Design
 ```
 No necesitan dependencias. Qué verifica cada una y cómo leer un error está en [docs/scripts.md](docs/scripts.md). No certifican la accesibilidad ni sustituyen la revisión visual.
