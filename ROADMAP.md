@@ -1,10 +1,10 @@
 # Roadmap
 
-Open work on the DSBook framework itself. Work on a project built with DSBook belongs in that project's own record, not here. Remove an item when it is done; the history is in Git and in [CHANGELOG.md](CHANGELOG.md).
+Trabajo abierto sobre el framework DSBook en sí. El trabajo sobre un proyecto construido con DSBook pertenece al record de ese proyecto, no a este archivo. Elimina un elemento cuando esté hecho; el historial está en Git y en [CHANGELOG.md](CHANGELOG.md).
 
 ## Pending
-- **License.** Decide whether CC BY-NC 4.0 matches the intended terms, in particular internal use for development inside a company, which that license does not define explicitly. Revise the holder name and the attribution line.
+- **Licencia.** Decidir si CC BY-NC 4.0 se corresponde con las condiciones previstas, en particular el uso interno para desarrollo dentro de una empresa, que esa licencia no define de forma explícita. Revisar el nombre del titular y la línea de atribución.
 
-## Later
-- **Info view of the home page.** Write the guide to the framework and to the project that the empty view is reserved for.
-- **Update check from the container.** It only compares versions and commits today; it does not update anything.
+## Más adelante
+- **Vista Info de la home.** Escribir la guía del framework y del proyecto para la que está reservada la vista vacía.
+- **Comprobación de actualizaciones desde el contenedor.** Hoy solo compara versiones y commits; no actualiza nada.

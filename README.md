@@ -1,136 +1,139 @@
 # DSBook
 
-DSBook is a workspace to **define, document and track a Design System**. It gives a team a guide of what a complete Design System contains (14 categories, 132 subsections), a place to develop each subsection as a page, and a matrix that shows at a glance what is ready, in process, pending or not applicable.
+DSBook es un workspace para **definir, documentar y seguir un Design System**. Da a un equipo una guía de lo que contiene un Design System completo (14 categorías, 132 subsecciones), un lugar donde desarrollar cada subsección como una página y una matriz que muestra de un vistazo qué está Ready, In process, Pending o Not applicable.
 
-It is a framework with no content of its own: each copy of this repository becomes one Design System project. Everything is plain HTML, CSS and JavaScript; it needs no build step, no backend and no accounts.
+Es un framework sin contenido propio: cada copia de este repositorio se convierte en un proyecto de Design System. Todo es HTML, CSS y JavaScript sin más: no necesita paso de build, ni backend, ni cuentas.
 
-## Contents
-- [Goal](#goal)
-- [How it works](#how-it-works)
-- [Requirements and installation](#requirements-and-installation)
-- [Start a project](#start-a-project)
-- [Day-to-day workflow](#day-to-day-workflow)
-- [Statuses](#statuses)
-- [The container](#the-container)
-- [Checks](#checks)
-- [Repository map](#repository-map)
-- [Framework versions](#framework-versions)
-- [Known limits](#known-limits)
-- [License](#license)
+## Contenido
+- [Objetivo](#objetivo)
+- [Cómo funciona](#cómo-funciona)
+- [Requisitos e instalación](#requisitos-e-instalación)
+- [Empezar un proyecto](#empezar-un-proyecto)
+- [Flujo de trabajo diario](#flujo-de-trabajo-diario)
+- [Estados](#estados)
+- [El contenedor](#el-contenedor)
+- [Comprobaciones](#comprobaciones)
+- [Mapa del repositorio](#mapa-del-repositorio)
+- [Versiones del framework](#versiones-del-framework)
+- [Límites conocidos](#límites-conocidos)
+- [Licencia](#licencia)
 
-## Goal
-A Design System is easy to start and hard to finish: scattered decisions, pages nobody reviews, no view of what is missing. DSBook gives it a fixed skeleton:
-- **A guide** that says, for every subsection, what to define and what the acceptance criteria are.
-- **A page per subsection**, developed as a real document (the decision, its rationale, examples, tokens, rules).
-- **A record per subsection**: status, owner, notes, tasks and review, so nothing is "ready" without evidence.
-- **A read-only container** that shows all of it with progress, filters and navigation.
+## Objetivo
+Un Design System es fácil de empezar y difícil de terminar: decisiones dispersas, páginas que nadie revisa, ninguna visión de lo que falta. DSBook le da un esqueleto fijo:
+- **Una guía** que dice, para cada subsección, qué definir y cuáles son los criterios de aceptación.
+- **Una página por subsección**, desarrollada como un documento real (la decisión, su razonamiento, ejemplos, tokens, reglas).
+- **Un record por subsección**: estado, owner, notes, tasks y review, de modo que nada está "Ready" sin evidencia.
+- **Un contenedor de solo lectura** que lo muestra todo con progreso, filtros y navegación.
 
-## How it works
-Three roles share one repository, which is the source of truth:
+## Cómo funciona
+Tres roles comparten un repositorio, que es la fuente de verdad:
 
-| Role | What it does |
+| Rol | Qué hace |
 | --- | --- |
-| **Claude Design** | The design and editing space. It writes the pages (`sections/**/*.dc.html`), the notes, tasks and statuses in `data/project.json`, and may edit the guide text or add subsections in `data/guide.json`. |
-| **Claude Code** | Integrates what Claude Design produces: reviews differences, runs the checks, commits, and keeps the framework and its documentation consistent. |
-| **The responsible person** | Decides, reviews and approves. Nothing becomes Ready (R) without a recorded review. |
+| **Claude Design** | El espacio de diseño y edición. Escribe las páginas (`sections/**/*.dc.html`), las notes, tasks y estados de `data/project.json`, y puede editar el texto de la guía o añadir subsecciones en `data/guide.json`. |
+| **Claude Code** | Integra lo que produce Claude Design: revisa las diferencias, ejecuta las comprobaciones, hace los commits y mantiene coherentes el framework y su documentación. |
+| **La persona responsable** | Decide, revisa y aprueba. Nada pasa a Ready (R) sin una review registrada. |
 
-The container (the web interface) only **shows** the state of the repository; it never modifies it. Everything is edited in Claude Design and integrated through Git. The rules for each role are in [CLAUDE.md](CLAUDE.md) and the guides in `docs/`.
+El contenedor (la interfaz web) solo **muestra** el estado del repositorio; nunca lo modifica. Todo se edita en Claude Design y se integra mediante Git. Las reglas de cada rol están en [CLAUDE.md](CLAUDE.md) y las guías en `docs/`.
 
-Three ideas to keep in mind:
-- **Framework and project.** The container, the scripts, the seed and the guides in `docs/` are the *framework*, shared by every project. `data/`, `sections/` and `assets/<category>/` are the *project*. See [docs/framework.md](docs/framework.md).
-- **Seed.** `seed/` holds the initial catalog and an all-Pending project. A new project is born from it and from then on owns its data.
-- **Contract.** Identities, statuses and paths follow a strict [data contract](docs/data-contract.md) that `npm run check` enforces.
+Tres ideas que conviene tener presentes:
+- **Framework y proyecto.** El contenedor, los scripts, el seed y las guías de `docs/` son el *framework*, compartido por todos los proyectos. `data/`, `sections/` y `assets/<category>/` son el *proyecto*. Ver [docs/framework.md](docs/framework.md).
+- **Seed.** `seed/` contiene el catálogo inicial y un proyecto con todo en Pending. Un proyecto nuevo nace de él y desde entonces es dueño de sus datos.
+- **Contrato.** Las identidades, estados y rutas siguen un [contrato de datos](docs/data-contract.md) estricto que `npm run check` hace cumplir.
+- **Idioma.** El repositorio se escribe en castellano; los términos y las etiquetas se quedan en inglés ([docs/glossary.md](docs/glossary.md)).
 
-## Requirements and installation
-- **Node.js 18 or later**, to run the checks, the scripts and the local server (`npm start`). There are no packages to install.
+## Requisitos e instalación
+- **Node.js 18 o posterior**, para ejecutar las comprobaciones, los scripts y el servidor local (`npm start`). No hay paquetes que instalar.
 - **Git**.
-- Optional: Chrome or Chromium and Node 22+, for the browser smoke test (it is skipped without them).
+- Opcional: Chrome o Chromium y Node 22+, para la prueba de humo en navegador (se omite sin ellos).
 
 ```sh
 git clone https://github.com/gineslm/DSbook.git my-design-system
 cd my-design-system
 ```
 
-## Start a project
-1. Copy or clone this repository into a new folder and **remove its Git history** if you want the project to start clean (delete `.git`, then `git init`).
-2. Create the project's data from the seed:
+## Empezar un proyecto
+1. Copia o clona este repositorio en una carpeta nueva y **elimina su historial de Git** si quieres que el proyecto empiece limpio (borra `.git` y ejecuta `git init`).
+2. Crea los datos del proyecto desde el seed:
    ```sh
    npm run init -- --id my-ds --name "My Design System"
    ```
-   `--id` is a slug that identifies the project; `--language` defaults to `en`. This writes `data/guide.json` and `data/project.json` (everything Pending).
-3. Adapt `README.md`, `CLAUDE.md`, `CHANGELOG.md` and `LICENSE` to the project: they describe the project, not the framework.
-4. Check and serve:
+   `--id` es un slug que identifica el proyecto; `--language` es `es` por defecto. Esto escribe `data/guide.json` y `data/project.json` (todo en Pending).
+3. Adapta `README.md`, `CLAUDE.md`, `CHANGELOG.md` y `LICENSE` al proyecto: describen el proyecto, no el framework.
+4. Comprueba y sirve:
    ```sh
    npm run check
    npm test
    npm start
    ```
-   `npm start` prints the address (the first free port from 8000, so several projects can run at once). Open it. Do not open `index.html` directly: loading the JSON files requires HTTP.
-5. Commit and connect your remote.
+   `npm start` imprime la dirección (el primer puerto libre desde 8000, de modo que varios proyectos pueden correr a la vez). Ábrela. No abras `index.html` directamente: cargar los archivos JSON requiere HTTP.
+5. Haz commit y conecta tu remoto.
 
-More detail in [docs/template.md](docs/template.md).
+Más detalle en [docs/template.md](docs/template.md).
 
-## Day-to-day workflow
-1. **Pick a subsection** in the container (or in `data/guide.json`). Its *Info* view says what to define.
-2. **Develop it in Claude Design.** The page goes to the subsection's `suggestedPath` (`sections/<category>/<slug>.dc.html`), its images to `assets/<category>/<slug>/`.
-3. **Record it.** In `data/project.json` set the status (I while there is work or review pending), the owner, the decisions in `notes` and non-blocking work in `tasks`.
-4. **Hand it over.** Claude Design follows the [handoff guide](docs/handoff.md): it checks that its base matches the repository, lists what it changed and what it could not verify.
-5. **Integrate with Claude Code.** Review the differences, run `npm run check` and `npm test`, commit. The changelog records each integration.
-6. **Review and approve.** The responsible person reviews against [docs/quality.md](docs/quality.md). Only then a subsection moves to R, with the person, date and evidence recorded.
+## Flujo de trabajo diario
+1. **Elige una subsección** en el contenedor (o en `data/guide.json`). Su vista *Info* dice qué definir.
+2. **Desarróllala en Claude Design.** La página va al `suggestedPath` de la subsección (`sections/<category>/<slug>.dc.html`) y sus imágenes a `assets/<category>/<slug>/`.
+3. **Regístrala.** En `data/project.json` fija el estado (I mientras haya trabajo o review pendiente), el owner, las decisiones en `notes` y el trabajo no bloqueante en `tasks`.
+4. **Entrégala.** Claude Design sigue la [guía de handoff](docs/handoff.md): comprueba que su base coincide con el repositorio y lista lo que cambió y lo que no pudo verificar.
+5. **Intégrala con Claude Code.** Revisa las diferencias, ejecuta `npm run check` y `npm test` y haz commit. El changelog registra cada integración.
+6. **Revisa y aprueba.** La persona responsable revisa según [docs/quality.md](docs/quality.md). Solo entonces una subsección pasa a R, con la persona, la fecha y la evidencia registradas.
 
-Guides: [for Claude Design](docs/claude-design.md) · [for Claude Code](docs/claude-code.md) · [page style](docs/page-style.md) · [review criteria](docs/quality.md).
+Guías: [para Claude Design](docs/claude-design.md) · [para Claude Code](docs/claude-code.md) · [estilo de página](docs/page-style.md) · [criterios de review](docs/quality.md).
 
-## Statuses
-| Status | Meaning |
+## Estados
+| Estado | Significado |
 | --- | --- |
-| R · Ready | Reviewed development, with person, date and evidence recorded. |
-| I · In process | Work or review in progress. |
-| P · Pending | Development pending; initial status. |
-| N · Not applicable | Out of scope, with an explicit justification. |
+| R · Ready | Desarrollo revisado, con persona, fecha y evidencia registradas. |
+| I · In process | Trabajo o review en curso. |
+| P · Pending | Desarrollo pendiente; estado inicial. |
+| N · Not applicable | Fuera de alcance, con una justificación explícita. |
 
-An existing page does not imply R. **Tasks** (`pending` or `future`) are non-blocking and never prevent Ready; work that blocks keeps the subsection in I.
+Una página existente no implica R. Las **tasks** (`pending` o `future`) no bloquean y nunca impiden Ready; el trabajo que bloquea mantiene la subsección en I.
 
-## The container
-A narrow rail with the **DSBook logo** (it opens the Framework page; the home page is the first breadcrumb) and two dropdowns: **status** filter and **sections** menu (hover a category to see its subsections). A sticky header shows the breadcrumb and the status on the left, and on the right the view tabs, a search field that unfolds from a magnifier, and previous/next buttons.
+## El contenedor
+Un rail estrecho con el **logo de DSBook** (abre la página Framework; la home es el primer breadcrumb) y dos desplegables: el filtro de **estado** y el menú **Sections** (pasa el puntero por una categoría para ver sus subsecciones). Una cabecera fija muestra el breadcrumb y el estado a la izquierda y, a la derecha, las pestañas de vista, un campo de búsqueda que se despliega desde una lupa y los botones anterior/siguiente.
 
-The home page has the same three views at `#/home/<view>`: **Content** (the summary), **Info** (empty for now, reserved for a guide to the project and the framework) and **Record** (the project record and, read-only, the tasks of every section). Each subsection has its own address, `#/<category>.<slug>`, and three views: **Content** (its page), **Info** (the guide: what to define and the acceptance criteria) and **Record** (status, owner, notes, tasks and review). The home page shows two bars: **Progress** (Ready over applicable) and **Complexity** (applicable over total). A subsection in I or R with a page opens on Content; any other opens on Info.
+La home tiene las mismas tres vistas en `#/home/<view>`: **Content** (el resumen), **Info** (vacía por ahora, reservada para una guía del proyecto y del framework) y **Record** (el project record y, en solo lectura, las tasks de todas las secciones). Cada subsección tiene su propia dirección, `#/<category>.<slug>`, y tres vistas: **Content** (su página), **Info** (la guía: qué definir y los criterios de aceptación) y **Record** (estado, owner, notes, tasks y review). La home muestra dos barras: **Progress** (Ready sobre aplicables) y **Complexity** (aplicables sobre el total). Una subsección en I o R con página abre en Content; cualquier otra abre en Info.
 
-Pages are shown in an isolated iframe (`sandbox="allow-scripts"`). The container keeps no drafts and imports or exports nothing.
+Las páginas se muestran en un iframe aislado (`sandbox="allow-scripts"`). El contenedor no guarda borradores y no importa ni exporta nada.
 
-## Checks
+## Comprobaciones
 ```sh
-npm run check       # contract, pages, vendored runtime and framework version
-npm test            # logic, check rules, init, framework manifest and a browser smoke test
-npm run framework   # framework version report (also --release and --compare)
+npm run check       # contrato, páginas, runtime vendorizado y versión del framework
+npm test            # lógica, reglas de check, init, manifiesto del framework y una prueba de humo en navegador
+npm run framework   # informe de la versión del framework (también --release y --compare)
+npm run design-diff # compara un proyecto de Claude Design con el repositorio
+npm run handoff-note # escribe el aviso (handoff-last.md) para Claude Design
 ```
-They need no dependencies. What each one verifies and how to read an error is in [docs/scripts.md](docs/scripts.md). They do not certify accessibility or replace visual review.
+No necesitan dependencias. Qué verifica cada una y cómo leer un error está en [docs/scripts.md](docs/scripts.md). No certifican la accesibilidad ni sustituyen la revisión visual.
 
-## Repository map
-| Path | What it is |
+## Mapa del repositorio
+| Ruta | Qué es |
 | --- | --- |
-| `index.html`, `styles.css`, `app.js`, `model.js` | The container and its pure logic. |
-| `data/guide.json`, `data/project.json` | The project's catalog and its record. Project-owned. |
-| `seed/` | The initial catalog and an all-Pending project. |
-| `sections/` | The pages that develop the Design System. Empty in a fresh copy. |
-| `assets/` | Page resources; `assets/_runtime/` is the vendored React runtime. |
-| `docs/` | Permanent guides. `docs/proposals/` records agreed changes to the way of working. |
-| `scripts/` | Checks, tests, `init` and the framework manifest tools. |
-| `dsbook.json` | The framework version this repository carries and the hash of each framework file. |
-| `CLAUDE.md` | The entry point for agents. |
+| `index.html`, `styles.css`, `app.js`, `model.js` | El contenedor y su lógica pura. |
+| `data/guide.json`, `data/project.json` | El catálogo del proyecto y su record. Pertenecen al proyecto. |
+| `seed/` | El catálogo inicial y un proyecto con todo en Pending. |
+| `sections/` | Las páginas que desarrollan el Design System. Vacío en una copia nueva. |
+| `assets/` | Recursos de las páginas; `assets/_runtime/` es el runtime vendorizado de React. |
+| `docs/` | Guías permanentes. `docs/proposals/` registra los cambios acordados en la forma de trabajar. |
+| `scripts/` | Comprobaciones, pruebas, `init` y las herramientas del manifiesto del framework. |
+| `dsbook.json` | La versión del framework que lleva este repositorio y el hash de cada archivo del framework. |
+| `CLAUDE.md` | El punto de entrada para los agentes. |
 
-## Framework versions
-The DSBook logo in the container opens the **Framework** page: the framework version and its source, the project's repository, the latest commit on GitHub, and a *Check for updates* button on each (manual; the only network calls).
+## Versiones del framework
+El logo de DSBook en el contenedor abre la página **Framework**: la versión del framework y su origen, el repositorio del proyecto, el último commit en GitHub y un botón *Check for updates* en cada bloque (manual; las únicas llamadas de red).
 
-`dsbook.json` records the framework version, and `npm run check` fails if a framework file changes without a new version being recorded. This keeps every repository built on DSBook comparable: `npm run framework -- --compare <folder>` says whether two of them differ and in which files. The versioning rules and the workflow to port a change are in [docs/framework.md](docs/framework.md); the history is in [CHANGELOG.md](CHANGELOG.md).
+`dsbook.json` registra la versión del framework, y `npm run check` falla si un archivo del framework cambia sin que se registre una versión nueva. Así todos los repositorios construidos sobre DSBook siguen siendo comparables: `npm run framework -- --compare <folder>` dice si dos de ellos difieren y en qué archivos. Las reglas de versionado y el flujo para portar un cambio están en [docs/framework.md](docs/framework.md); el historial está en [CHANGELOG.md](CHANGELOG.md).
 
-## Known limits
-- External pages may prevent embedding in an iframe; there is always a link to open them separately.
-- Iframes run with scripts but without access to the container. Content that needs cookies, storage or extra capabilities must be opened separately or adapted.
-- The container does not edit pages: that happens in Claude Design or in code.
-- R means a recorded review according to the project's criteria, not a conformance certification.
-- Markdown guides are read in the editor or on GitHub; they are not converted to HTML.
+## Límites conocidos
+- Las páginas externas pueden impedir su incrustación en un iframe; siempre hay un enlace para abrirlas aparte.
+- Los iframes se ejecutan con scripts pero sin acceso al contenedor. El contenido que necesite cookies, almacenamiento o capacidades adicionales debe abrirse aparte o adaptarse.
+- El contenedor no edita páginas: eso ocurre en Claude Design o en código.
+- R significa una review registrada según los criterios del proyecto, no una certificación de conformidad.
+- Las guías Markdown se leen en el editor o en GitHub; no se convierten a HTML.
 
-## License
-Creative Commons Attribution-NonCommercial 4.0 International ([LICENSE](LICENSE)). You may use, adapt and share DSBook giving credit to the original and linking the license; you may not use it commercially. The vendored React files keep their MIT license ([assets/_runtime/README.md](assets/_runtime/README.md)).
+## Licencia
+Creative Commons Attribution-NonCommercial 4.0 International ([LICENSE](LICENSE)). Puedes usar, adaptar y compartir DSBook dando crédito al original y enlazando la licencia; no puedes usarlo comercialmente. Los archivos vendorizados de React conservan su licencia MIT ([assets/_runtime/README.md](assets/_runtime/README.md)).
 
-Credit: *DSBook by Gines Lopez, https://github.com/gineslm/DSbook*.
+Crédito: *DSBook de Gines Lopez, https://github.com/gineslm/DSbook*.

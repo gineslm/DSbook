@@ -1,22 +1,22 @@
-# Proposals and their registry
+# Propuestas y su registro
 
-A proposal is an agreed change to the **way of working** (container, contract, guides, scripts), not to the content of the Design System. It is drafted in Claude Design or with the responsible person, brought to this directory and applied by Claude Code. It does not replace `CHANGELOG.md` and it is not a session report.
+Una propuesta es un cambio acordado en la **forma de trabajar** (contenedor, contrato, guías, scripts), no en el contenido del Design System. Se redacta en Claude Design o con la persona responsable, se trae a este directorio y la aplica Claude Code. No sustituye a `CHANGELOG.md` y no es un informe de sesión.
 
-## Flow
-1. The proposal is saved as `docs/proposals/<name>.md` with one decision per section (`D1`, `D2`…), its reason and its changes.
-2. Claude Code applies them in blocks, with validation (`npm run check`, `npm test`) and review by the responsible person.
-3. When each decision is finished, its **status** and what was actually done are written in its own section, including corrections to the original premise.
-4. The table below collects the status of all of them. Discarded ones are kept with their reason.
-5. A proposal that changes the framework ends with a new framework version ([../framework.md](../framework.md)).
+## Flujo
+1. La propuesta se guarda como `docs/proposals/<name>.md` con una decisión por sección (`D1`, `D2`…), su motivo y sus cambios.
+2. Claude Code las aplica por bloques, con validación (`npm run check`, `npm test`) y revisión por la persona responsable.
+3. Cuando termina cada decisión, su **estado** y lo que realmente se hizo se escriben en su propia sección, incluidas las correcciones a la premisa original.
+4. La tabla de abajo recoge el estado de todas. Las descartadas se conservan con su motivo.
+5. Una propuesta que cambia el framework termina con una versión nueva del framework ([../framework.md](../framework.md)).
 
-## Statuses
-- **Applied**: done and validated.
-- **Partial**: partly done; what is missing is in the note.
-- **Discarded**: the responsible person decided not to apply it.
-- **Approved**: decision confirmed by the responsible person, not yet applied.
-- **Pending**: undecided, or not applied for lack of a decision.
+## Estados
+- **Applied**: hecha y validada.
+- **Partial**: hecha en parte; lo que falta está en la nota.
+- **Discarded**: la persona responsable decidió no aplicarla.
+- **Approved**: decisión confirmada por la persona responsable, aún no aplicada.
+- **Pending**: sin decidir, o no aplicada por falta de una decisión.
 
-## Registry
-| Proposal | Decision | Status | Version | Note |
+## Registro
+| Propuesta | Decisión | Estado | Versión | Nota |
 | --- | --- | --- | --- | --- |
-| | | | | No proposals yet. |
+| | | | | Aún no hay propuestas. |
