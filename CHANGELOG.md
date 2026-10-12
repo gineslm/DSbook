@@ -4,6 +4,12 @@ The history of the DSBook framework. One entry per version recorded with `npm ru
 
 Format: version · date (YYYY-MM-DD) · summary.
 
+## 2.3.1 · 2026-10-12
+`handoff-note` ya no etiqueta como «coincide con Claude Design» lo que la comparación no cubre (`scripts/`, `design-baseline.json`, `handoff-last.md`): no se sabe si coincide, así que no lleva etiqueta.
+
+## 2.3.0 · 2026-10-12
+Dos cambios de diseño del contenedor. La home tiene un selector de vista **Tarjetas / Lista** a la derecha de «N subsecciones en M categorías»: la lista muestra todas las categorías con sus subsecciones (respeta filtros y búsqueda), cada categoría se contrae con un chevron y hay un «Contraer todo / Expandir todo»; la elección se mantiene mientras se navega. Las vistas **Content / Info / Record** pasan de parecer botones a pestañas: texto sin caja, una línea bajo la cabecera y un indicador bajo la activa (siguen siendo enlaces, con `aria-current`). La prueba de navegador cubre el selector, la lista y el indicador de pestaña.
+
 ## 2.2.2 · 2026-10-12
 `design-diff` deja de contar como trabajo de Claude Design los dos archivos que genera Claude Code y que Claude Design lee del repositorio (`design-baseline.json` y `handoff-last.md`): su copia siempre va un envío por detrás y se señalaba como «nuevo en Claude Design». Detectado en la primera sincronización real.
 
