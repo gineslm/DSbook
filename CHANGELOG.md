@@ -4,6 +4,9 @@ The history of the DSBook framework. One entry per version recorded with `npm ru
 
 Format: version · date (YYYY-MM-DD) · summary.
 
+## 2.2.2 · 2026-10-12
+`design-diff` deja de contar como trabajo de Claude Design los dos archivos que genera Claude Code y que Claude Design lee del repositorio (`design-baseline.json` y `handoff-last.md`): su copia siempre va un envío por detrás y se señalaba como «nuevo en Claude Design». Detectado en la primera sincronización real.
+
 ## 2.2.1 · 2026-10-12
 `handoff-note` acorta la lista de IDs afectados cuando son más de 25 (por ejemplo tras una traducción) en lugar de listarlos todos.
 
