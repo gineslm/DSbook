@@ -4,6 +4,9 @@ The history of the DSBook framework. One entry per version recorded with `npm ru
 
 Format: version · date (YYYY-MM-DD) · summary.
 
+## 2.2.1 · 2026-10-12
+`handoff-note` acorta la lista de IDs afectados cuando son más de 25 (por ejemplo tras una traducción) en lugar de listarlos todos.
+
 ## 2.2.0 · 2026-10-11
 Protección del trabajo de Claude Design y menos lectura por MCP. `npm run design-diff -- --request` imprime un prompt que pide a Claude Design un `design-manifest.json` con el SHA-256 de todos sus archivos (con un nonce); `--manifest` lo compara **a tres bandas** (Claude Design ahora, el repositorio ahora y `design-baseline.json`, lo último integrado) y señala lo que Claude Design cambió y el repo no tiene (sin integrar), lo nuevo y lo que hay que confirmar; solo esos archivos se leen después. `--record` registra la integración y exige integrar, confirmar o descartar con motivo. Los SVG se comparan en forma canónica (Claude Design los reserializa al importarlos). `npm run hooks:install` activa un hook de git que bloquea el push mientras haya trabajo de Claude Design sin integrar o la comparación tenga más de 24 h; `handoff-note` se niega a avisar en ese caso. Claude Design recibe la instrucción de no sobrescribir su trabajo sin integrar (copia en `_backup/`). Nuevo skill `.claude/skills/dsbook-handoff/` con el procedimiento completo; `.claude/skills/` forma parte del framework. Nuevos: `scripts/handoff-protection.test.mjs`, `pre-push-check.mjs`, `hooks-install.mjs` y `hooks/pre-push`.
 
