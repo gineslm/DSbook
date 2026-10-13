@@ -4,6 +4,9 @@ The history of the DSBook framework. One entry per version recorded with `npm ru
 
 Format: version · date (YYYY-MM-DD) · summary.
 
+## 2.4.0 · 2026-10-13
+La vista por defecto de la home es la **Lista** (todas las categorías con sus subsecciones, contraíbles) en lugar de las tarjetas: `let homeLayout='list'` en `app.js`. El selector Lista / Tarjetas sigue ahí y la elección se mantiene mientras se navega. La prueba de navegador comprueba el nuevo valor por defecto y que el filtro de estado recorta la home en cualquiera de las dos vistas; `README.md` y `docs/quality.md` lo reflejan.
+
 ## 2.3.2 · 2026-10-13
 Las pruebas del framework (`model`, `about`, `home` y `check`) dejan de depender de los datos del proyecto y usan el seed: añadir una categoría o una sección en un proyecto ya no las rompe. La prueba del proyecto real (`home.test.mjs`) sigue validando `data/`. Detectado al integrar la primera categoría nueva creada en Claude Design.
 
