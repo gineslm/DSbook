@@ -4,6 +4,9 @@ The history of the DSBook framework. One entry per version recorded with `npm ru
 
 Format: version · date (YYYY-MM-DD) · summary.
 
+## 2.3.2 · 2026-10-13
+Las pruebas del framework (`model`, `about`, `home` y `check`) dejan de depender de los datos del proyecto y usan el seed: añadir una categoría o una sección en un proyecto ya no las rompe. La prueba del proyecto real (`home.test.mjs`) sigue validando `data/`. Detectado al integrar la primera categoría nueva creada en Claude Design.
+
 ## 2.3.1 · 2026-10-12
 `handoff-note` ya no etiqueta como «coincide con Claude Design» lo que la comparación no cubre (`scripts/`, `design-baseline.json`, `handoff-last.md`): no se sabe si coincide, así que no lleva etiqueta.
 
