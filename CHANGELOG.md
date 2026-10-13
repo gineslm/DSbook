@@ -4,6 +4,9 @@ The history of the DSBook framework. One entry per version recorded with `npm ru
 
 Format: version · date (YYYY-MM-DD) · summary.
 
+## 2.5.0 · 2026-10-13
+Los botones Anterior / Siguiente de la cabecera de una sección se mueven solo entre las subsecciones que pasan los filtros de estado y la búsqueda (con filtros activos saltan las que no coinciden, aunque la sección abierta no coincida). `neighbors(guide,id,allowed)` en `model.js` acepta un conjunto opcional de IDs y la cabecera se actualiza al cambiar un filtro. Pruebas nuevas en `model.test.mjs` y `container.test.mjs`; `docs/quality.md` lo refleja.
+
 ## 2.4.0 · 2026-10-13
 La vista por defecto de la home es la **Lista** (todas las categorías con sus subsecciones, contraíbles) en lugar de las tarjetas: `let homeLayout='list'` en `app.js`. El selector Lista / Tarjetas sigue ahí y la elección se mantiene mientras se navega. La prueba de navegador comprueba el nuevo valor por defecto y que el filtro de estado recorta la home en cualquiera de las dos vistas; `README.md` y `docs/quality.md` lo reflejan.
 
