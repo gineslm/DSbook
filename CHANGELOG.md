@@ -4,6 +4,9 @@ The history of the DSBook framework. One entry per version recorded with `npm ru
 
 Format: version · date (YYYY-MM-DD) · summary.
 
+## 2.6.0 · 2026-10-14
+`design-diff --record --discard` admite varias rutas: se repite el indicador (`--discard a --discard b --reason "…"`) y el motivo vale para todas. Antes solo aceptaba una y, como `--record` exige tener todo resuelto, no se podía descartar más de un archivo de Claude Design. Prueba nueva en `handoff-protection.test.mjs`; `docs/scripts.md` y el skill `dsbook-handoff` lo reflejan.
+
 ## 2.5.0 · 2026-10-13
 Los botones Anterior / Siguiente de la cabecera de una sección se mueven solo entre las subsecciones que pasan los filtros de estado y la búsqueda (con filtros activos saltan las que no coinciden, aunque la sección abierta no coincida). `neighbors(guide,id,allowed)` en `model.js` acepta un conjunto opcional de IDs y la cabecera se actualiza al cambiar un filtro. Pruebas nuevas en `model.test.mjs` y `container.test.mjs`; `docs/quality.md` lo refleja.
 
