@@ -4,6 +4,9 @@ The history of the DSBook framework. One entry per version recorded with `npm ru
 
 Format: version · date (YYYY-MM-DD) · summary.
 
+## 2.6.1 · 2026-10-15
+Las pruebas de `handoff-protection.test.mjs` excluyen `design-baseline.json` de la copia de trabajo, de modo que parten de un registro vacío. Con descartes ya registrados en un proyecto, dos pruebas que cuentan los descartes fallaban; ahora no dependen del estado del proyecto.
+
 ## 2.6.0 · 2026-10-14
 `design-diff --record --discard` admite varias rutas: se repite el indicador (`--discard a --discard b --reason "…"`) y el motivo vale para todas. Antes solo aceptaba una y, como `--record` exige tener todo resuelto, no se podía descartar más de un archivo de Claude Design. Prueba nueva en `handoff-protection.test.mjs`; `docs/scripts.md` y el skill `dsbook-handoff` lo reflejan.
 
